@@ -20,9 +20,9 @@
 
 <!-- GitHub Stats Badges -->
 <p align="center">
-  <img src="https://img.shields.io/github/stars/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=flat-square&color=FFD700&label=⭐+Stars" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=flat-square&color=00FFCC&label=🍴+Forks" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/issues/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=flat-square&color=FF6B6B&label=⚠️+Issues" alt="GitHub issues" />
+  <img src="https://img.shields.io/github/stars/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=for-the-badge&color=gold" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=for-the-badge&color=cyan" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/pawan941394/Air-Draw-Real-Time-Mid-Air-Canvas?style=for-the-badge&color=red" alt="GitHub issues" />
 </p>
 
 ---
