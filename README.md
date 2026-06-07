@@ -58,17 +58,17 @@ Air Draw dynamically scales gesture thresholds based on how close your hand is t
 ### 1. Dynamic Pinch Detection
 Rather than relying on static pixel distances, the distance between the **Index Finger Tip** (Landmark 8) and **Thumb Tip** (Landmark 4) is normalized against the **Hand Size** (distance between the **Wrist** [Landmark 0] and the **Middle Finger MCP** [Landmark 9]):
 
-$$\text{pinch\_distance} = \sqrt{(x_{index} - x_{thumb})^2 + (y_{index} - y_{thumb})^2}$$
+$$\text{Pinch Distance} = \sqrt{(x_{\text{index}} - x_{\text{thumb}})^2 + (y_{\text{index}} - y_{\text{thumb}})^2}$$
 
-$$\text{hand\_size} = \sqrt{(x_{middle\_mcp} - x_{wrist})^2 + (y_{middle\_mcp} - y_{wrist})^2}$$
+$$\text{Hand Size} = \sqrt{(x_{\text{middle}} - x_{\text{wrist}})^2 + (y_{\text{middle}} - y_{\text{wrist}})^2}$$
 
-$$\text{draw\_mode} = \text{pinch\_distance} < \text{hand\_size} \times 0.55$$
+$$\text{Draw Mode} = \text{Pinch Distance} < \text{Hand Size} \times 0.55$$
 
 ### 2. Cursor Smoothing Formula
 We smooth hand tremors using an exponential filter:
 
-$$X_{smooth} = X_{prev} + (X_{current} - X_{prev}) \times 0.45$$
-$$Y_{smooth} = Y_{prev} + (Y_{current} - Y_{prev}) \times 0.45$$
+$$x_{\text{smooth}} = x_{\text{prev}} + (x_{\text{current}} - x_{\text{prev}}) \times 0.45$$
+$$y_{\text{smooth}} = y_{\text{prev}} + (y_{\text{current}} - y_{\text{prev}}) \times 0.45$$
 
 ---
 
