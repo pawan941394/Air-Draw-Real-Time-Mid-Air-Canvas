@@ -101,9 +101,8 @@ Ensure you have **Python 3.12+** installed on your system.
 
 ## ⚡ Demo & Visuals
 
-*(Add a demo GIF here or replace with a screenshot)*
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" alt="Drawing Demo Screen" width="640" />
+  <img src="image.png" alt="Drawing Demo Screen" width="640" />
 </div>
 
 ---
